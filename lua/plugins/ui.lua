@@ -8,4 +8,12 @@ return {
       scroll = { enabled = false },
     },
   },
+  { "EdenEast/nightfox.nvim" },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "nightfox",
+    },
+  },
 }
